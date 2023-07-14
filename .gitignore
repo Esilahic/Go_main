@@ -1,0 +1,6 @@
+#ignore go work/sum/mod files
+*.work
+*.sum
+
+#ignore editor config
+.editorconfig
