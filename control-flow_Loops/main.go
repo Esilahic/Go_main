@@ -6,7 +6,9 @@ import (
 
 func main() {
 	/*
-		The Go for loop is similar to—but not the same as—C's. It unifies for and while and there is no do-while. There are three forms, only one of which has semicolons.
+		The Go for loop is similar to—but not the same as—C's.
+		It unifies for and while and there is no do-while.
+		There are three forms, only one of which has semicolons.
 			Like a C for
 			for init; condition; post { }
 
