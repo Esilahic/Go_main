@@ -8,8 +8,8 @@ type person struct {
 }
 
 func (p person) speak() {
-	fmt.Println("My age is", p.age)
-	fmt.Println("My name is", p.first)
+	fmt.Println()
+	fmt.Println("My name is", p.first, "and my age is", p.age)
 }
 
 func main() {
