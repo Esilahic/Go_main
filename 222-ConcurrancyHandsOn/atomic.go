@@ -15,8 +15,8 @@ func main() {
 
 	for i := 0; i < gs; i++ {
 		go func() {
-			atomic.AddInt64(&count, 1) //count is locked
-			fmt.Println(atomic.LoadInt64(&count))
+			atomic.AddInt64(&count, 1)            //count is locked
+			fmt.Println(atomic.LoadInt64(&count)) //count is unlocked and printed
 			wg.Done()
 		}()
 	}
